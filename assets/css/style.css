@@ -1,0 +1,41 @@
+.mynav {
+    background: #423BC4;
+    border-bottom: 1px solid #863BC4;
+}
+body {
+    background: #999;
+}
+
+.navbar {
+    padding: 0;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.mynavlink {
+    display: inline-block;
+    color: white;
+}
+.mynavlink:hover {
+    background: #863BC4;
+}
+
+.jumbotron {
+    height: 100vh;
+    background: #888;
+}
+
+.about {
+    height: 100vh;
+}
+
+.portfolio {
+    height: 150vh;
+    background: #863BC4
+}

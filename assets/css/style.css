@@ -1,16 +1,35 @@
-.mynav {
-    background: #423BC4;
-    border-bottom: 1px solid #863BC4;
+/* Jumbotron */
+.jumbotron {
+    height: 100vh;
+    background: #90ADC6;
 }
-body {
-    background: #999;
+
+h1 {
+    color: #333652;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 10px;
+    border-bottom: 5px solid #FAD02C;
+}
+
+.intro {
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9EAEC;
+}
+
+/* Navbar */
+.mynav {
+    background: #333652;
+    border-bottom: 1px solid #FAD02C;
 }
 
 .navbar {
-    padding: 0;
+    padding: 10px;
 }
+
 .navbar-brand {
-    color: white;
+    color: #E9EAEC;
     font-weight: bold;
 }
 
@@ -20,22 +39,105 @@ body {
 
 .mynavlink {
     display: inline-block;
+    color: #E9EAEC;
+}
+
+.mynavlink:hover {
+    background: #90ADC6;
+    border-bottom: 10px solid #FAD02C;
     color: white;
 }
-.mynavlink:hover {
-    background: #863BC4;
+
+body {
+    background: #333652;
 }
 
-.jumbotron {
+/* Section Header */
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9EAEC;
+    border-bottom: 2px solid #FAD02C;
+    display: inline;
+}
+
+/* About Section */
+#about {
     height: 100vh;
-    background: #888;
+    background: #333652;
+    color: #E9EAEC;
+    font-size: 24px;
 }
 
-.about {
-    height: 100vh;
-}
-
-.portfolio {
+/* Portfolio Section */
+#portfolio {
     height: 150vh;
-    background: #863BC4
+    background: #90ADC6;
+}
+
+.imageHeader {
+    color: #333652;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.portfolioImage {
+    border: 2px solid #FAD02C;
+}
+
+/* Contact Section */
+    #contact {
+        height: 100vh;
+        background: #333652;
+    }
+
+
+/* Modals */
+.modal-content {
+    border: 1px solid #E9EAEC;
+}
+.modal-header {
+    background: #333652;
+    color: #90ADC6;
+    border-bottom: 1px solid #FAD02C;
+}
+
+.modal-body {
+    background: #90ADC6;
+    color: #E9EAEC;
+    border-bottom: 1px solid #FAD02C;
+    font-size: 24px;
+}
+
+.modal-footer {
+    background: #333652;
+}
+
+.close {
+    color: #90ADC6;
+}
+
+.close:hover {
+    color: #FAD02C;
+}
+
+/* Buttons */
+.btn {
+    background: #333652;
+    border: 1px solid #FAD02C;
+    color: #E9EAEC;
+}
+
+.btn:hover {
+    background: #FAD02C;
+    border: 1px solid #333652;
+    color: #333652;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+hr {
+    background: #FAD02C;
 }

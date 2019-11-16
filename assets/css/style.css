@@ -1,7 +1,26 @@
 /* Jumbotron */
-.jumbotron {
+#jumbotron {
     height: 100vh;
     background: #90ADC6;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+#resume {
+    color: #E9EAEC;
+    text-decoration: none;
+}
+#resume:hover {
+    color: #FAD02C;
+}
+body {
+    font-family: 'Alata', sans-serif;
 }
 
 h1 {
@@ -10,6 +29,8 @@ h1 {
     font-size: 60px;
     padding: 10px;
     border-bottom: 5px solid #FAD02C;
+    font-family: 'Alata', sans-serif;
+
 }
 
 .intro {
@@ -19,6 +40,10 @@ h1 {
 }
 
 /* Navbar */
+
+.navbar-toggler{
+    border-color: #FAD02C;
+}
 .mynav {
     background: #333652;
     border-bottom: 1px solid #FAD02C;
@@ -30,7 +55,6 @@ h1 {
 
 .navbar-brand {
     color: #E9EAEC;
-    font-weight: bold;
 }
 
 .navbar-brand:hover {
@@ -39,17 +63,13 @@ h1 {
 
 .mynavlink {
     display: inline-block;
-    color: #E9EAEC;
+    color: #E9EAEC !important;
 }
 
 .mynavlink:hover {
     background: #90ADC6;
     border-bottom: 10px solid #FAD02C;
     color: white;
-}
-
-body {
-    background: #333652;
 }
 
 /* Section Header */
@@ -89,6 +109,17 @@ h2 {
     #contact {
         height: 100vh;
         background: #333652;
+        font-size: 24px;
+        color: #E9EAEC;
+    }
+
+    .contactImage {
+        width: 64px;
+        height: 64px;
+    }
+
+    .contactInfo {
+        margin: 0vh;
     }
 
 
@@ -134,6 +165,14 @@ h2 {
     color: #333652;
 }
 
+
+/* Footer */
+.footer {
+    background: #333652;
+    border-top: 1px solid #FAD02C;
+    color: #90ADC6;
+    font-size: 16px;
+}
 img:hover {
     cursor: pointer;
 }

@@ -153,9 +153,9 @@ function createModals() {
         });
 
         newModalFooter.append(
-            newModalClose,
             newModalLink,
-            newModalLink2
+            newModalLink2,
+            newModalClose
             );
         newModalHeader.append(newModalTitle);
         newModalHeader.append(newModalX);

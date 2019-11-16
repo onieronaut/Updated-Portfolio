@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jerard Gonzalez | Full-Stack Developer</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/reset.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,39 +20,50 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar sticky-top navbar-expand-lg mynav py-0">
+  <nav class="navbar navbar-dark sticky-top navbar-expand-sm mynav py-0">
     <a class="navbar-brand" href="#">Jerard Gonzalez</a>
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active mynavlink" href="#top">Back to Top</a>
-      <a class="nav-item nav-link mynavlink" href="#about">About</a>
-      <a class="nav-item nav-link mynavlink" href="#portfolio">Portfolio</a>
-      <a class="nav-item nav-link mynavlink" href="#contact">Contact</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active mynavlink" href="#top">Back to Top</a>
+        <a class="nav-item nav-link mynavlink" href="#about">About</a>
+        <a class="nav-item nav-link mynavlink" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link mynavlink" href="#contact">Contact</a>
+      </div>
     </div>
     </div>
   </nav>
 
-  <!-- Jumbotron -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container text-center">
-      <h1 data-aos="fade-right">Jerard Gonzalez</h1>
-      <p data-aos="fade-left" class="intro">Full-Stack Web Developer</p>
-    </div>
-  </div>
-
+  
   <!-- Container -->
   <div class="container-fluid">
+    
+    <!-- Jumbotron -->
+    <div class="row text-center" id="jumbotron">
+      <div class="col-sm-12">
+        <h1 data-aos="fade-right">Jerard Gonzalez</h1>
+        <p data-aos="fade-left" class="intro">Full-Stack Web Developer</p>
+      </div>
+      <div class="col-sm-12 intro"><a href="https://docs.google.com/document/d/1UCmdmNRqj8swLW5VzVG99b88QiGVpjzFOr2D9Kcp_Ss/edit?usp=sharing" target="_blank"><p id="resume">View My Resume</p></a></div>
+      <div class="col-sm-12 scroll intro">Scroll Down to View</div>
+    </div>
+
     <!-- About -->
     <div class="row text-center" id="about">
       <div class="col-sm-12">
         <h2 data-aos="fade-left">About Me</h2>
       </div>
-      <div class="col-sm-12" data-aos="fade-right">I'm from Clearwater, Florida and I live in Orlando, Florida. I'm currently enrolled in a
+      <div class="col-sm-12" data-aos="fade-right">I'm from Clearwater, Florida and I live in Orlando, Florida. I'm
+        currently enrolled in a
         full-stack web development bootcamp at the University of Central Florida.<br>
         I have a Bachelor of Science degree in Interdisciplinary Studies, with areas of focus in Computational and
         Physical Sciences, and a minor in Biology from the University of Central Florida.
       </div>
       <hr width="75%">
-      <div class="col-sm-12" data-aos="fade-left">I have found a passion in coding, specifically I enjoy solving problems and the journey
+      <div class="col-sm-12" data-aos="fade-left">I have found a passion in coding, specifically I enjoy solving
+        problems and the journey
         that figuring out the logic takes you on. I look forward to the infinite learning experience that this field
         brings.
       </div>
@@ -62,36 +75,49 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="row text-center" id="portfolio">
+    <div class="row text-center portfolioImages" id="portfolio">
       <div class="col-sm-12">
         <h2 data-aos="fade-up">Portfolio</h2>
       </div>
 
       <!-- Image trigger modal -->
-      <div class="row text-center portfolioImages"></div>
-
       <div class="mymodals"></div>
     </div>
-
 
     <!-- Contact -->
     <div class="row text-center" id="contact">
       <div class="col-sm-12">
         <h2 data-aos="fade-up">Contact</h2>
       </div>
-      <div class="col-sm-12">
-          You can reach me the following ways:
+      <div class="col-sm-12 contactInfo">
+        You can reach me the following ways
+        <hr width="75%">
       </div>
-      <div class="col-sm-4 mx-auto">
-        <img src="assets/images/GitHub-Mark-64px.png" />
-      </div>
-      <div class="col-sm-4 mx-auto">
-        <img src="assets/images/GitHub-Mark-64px.png" />
-      </div>
-      <div class="col-sm-4 mx-auto">
-        <img src="assets/images/GitHub-Mark-64px.png" />
-      </div>
+        <div class="col-sm-3" data-aos="fade-right">
+          <a href="https://github.com/onieronaut" target="_blank"><img class="contactImage" src="assets/images/GitHub-Mark-64px.png" /></a>
+        </div>
+        <div class="col-sm-3" data-aos="fade-left">GitHub</div>
+        <div class="col-sm-3" data-aos="fade-right">
+          <a href="https://www.linkedin.com/in/jerard-gonzalez-a07467113/" target="_blank"><img class="contactImage" src="assets/images/LI-In-Bug.png" /></a>
+        </div>
+        <div class="col-sm-3" data-aos="fade-left">LinkedIn</div>
+        <div class="col-sm-3" data-aos="fade-right">
+          <img class="contactImage" src="assets/images/cellphone.png" />
+        </div>
+        <div class="col-sm-3" data-aos="fade-left">Phone: 7275195557</div>
+        <div class="col-sm-3" data-aos="fade-right">
+          <img class="contactImage" src="assets/images/email.png" />
+        </div>
+        <div class="col-sm-3" data-aos="fade-left">Email: jerardgonzalez@gmail.com</div>
+
+
     </div>
+
+    <!-- Footer -->
+    <div class="row text-center">
+      <div class="col-sm-12 footer">
+        Copyright Jerard Gonzalez
+      </div>
 
     </div>
     <!-- End Container -->

@@ -87,6 +87,15 @@ const portfolio = [
         target: "spacebnb",
         description: "A group project showcasing a mock travel site for the Star Wars universe.",
         image: "assets/images/spacebnb.png"
+    },
+
+    liri = {
+        name: "LIRI",
+        url: "https://github.com/onieronaut/liri-node-app",
+        github: "https://github.com/onieronaut/liri-node-app",
+        target: "liri",
+        description: "My first Node.js application that allows a user to either search for movie information, song information, or upcoming tour dates for a given band.",
+        image: "assets/images/liri.png"
     }
 ]
 

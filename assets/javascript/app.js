@@ -96,6 +96,15 @@ const portfolio = [
         target: "liri",
         description: "My first Node.js application that allows a user to either search for movie information, song information, or upcoming tour dates for a given band.",
         image: "assets/images/liri.png"
+    },
+
+    bamazon = {
+        name: "Bamazon",
+        url: "https://github.com/onieronaut/bamazon",
+        github: "https://github.com/onieronaut/bamazon",
+        target: "bamazon",
+        description: "A Node.js application that interacts with a MySQL database to create, read, and update a mock online shopping website's inventory",
+        image: "assets/images/bamazon.png"
     }
 ]
 

@@ -105,6 +105,14 @@ const portfolio = [
         target: "bamazon",
         description: "A Node.js application that interacts with a MySQL database to create, read, and update a mock online shopping website's inventory",
         image: "assets/images/bamazon.png"
+    },
+    friendfinder = {
+        name: "FriendFinder",
+        url: "https://lit-sea-24490.herokuapp.com/",
+        github: "https://github.com/onieronaut/FriendFinder",
+        target: "friendfinder",
+        description: "A Node Express application that matches you with another user based on survey questions",
+        image: "assets/images/friendfinder.png"
     }
 ]
 

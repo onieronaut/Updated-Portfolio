@@ -113,6 +113,14 @@ const portfolio = [
         target: "friendfinder",
         description: "A Node Express application that matches you with another user based on survey questions",
         image: "assets/images/friendfinder.png"
+    },
+    burger = {
+        name: "Eat Dat Burger",
+        url: "https://powerful-basin-06603.herokuapp.com/",
+        github: "https://github.com/onieronaut/burger",
+        target: "burger",
+        description: "A Node Express MySQL Handlebar application that lets you add and eat different user created burgers!",
+        image: "assets/images/burger.png"
     }
 ]
 
